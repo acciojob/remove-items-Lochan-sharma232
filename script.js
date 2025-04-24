@@ -5,6 +5,8 @@ let  btn1=document.querySelector("input");
 btn1.addEventListener("click",()=>{
 	if(color.selectedIndex!=-1){
 		color.remove(color.selectedIndex)
+	}else{
+		alert("can not seelct any item");
 	}
 })
 	
